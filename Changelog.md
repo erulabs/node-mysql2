@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.15.3](https://github.com/sidorares/node-mysql2/compare/v3.15.2...v3.15.3) (2025-10-21)
+
+
+### Bug Fixes
+
+* skip SNI for IP addresses in TLS connection ([#3835](https://github.com/sidorares/node-mysql2/issues/3835)) ([6000eb2](https://github.com/sidorares/node-mysql2/commit/6000eb2fd8793756b59b628893acdaa8c6bdffc0))
+
+## [3.15.2](https://github.com/sidorares/node-mysql2/compare/v3.15.1...v3.15.2) (2025-10-08)
+
+
+### Bug Fixes
+
+* fix sha256_password to work correctly over a TLS connection ([#3809](https://github.com/sidorares/node-mysql2/issues/3809)) ([fb9eae1](https://github.com/sidorares/node-mysql2/commit/fb9eae11f948a86151f64737fd74300437fd5bf3))
+
 ## [3.15.1](https://github.com/sidorares/node-mysql2/compare/v3.15.0...v3.15.1) (2025-09-24)
 
 
